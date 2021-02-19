@@ -8,6 +8,7 @@ namespace ClassLibrary2
 {
     interface Interface1<T> where T : class
     {
+        //阿尔嘎达
             IEnumerable<T> GetAll(int PageIndex,int PageSize,out int Total);
             T Get(Func<T, bool> predicate);
             void Add(T entity);
